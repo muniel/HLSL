@@ -1,0 +1,41 @@
+＃この.gitignoreファイルはUnityプロジェクトディレクトリのルートに配置する必要があります
+＃
+＃ https://github.com/github/gitignore/blob/master/Unity.gitignoreから最新の情報を取得します
+＃
+/ [ Ll ] ibrary /
+/ [ Tt ] emp /
+/ [ Oo ] bj /
+/ [ Bb ] uild /
+/ [ Bb ] uilds /
+/ [ Ll ] ogs /
+/ [ Uu ] ser [ Ss ] ettings /
+
+＃自動生成されたVS / MD / Consuloソリューションとプロジェクトファイル
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+* .user
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+＃ Visual Studioのキャッシュディレクトリ
+.vs /
+
+＃のMemoryCapturesのサイズが過度に取得することができます。
+＃非常に機密性の高いデータが含まれている可能性もあります
+/ [ Mm ] emoryCaptures /
+
+＃ Unity3Dで生成されたメタファイル
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
